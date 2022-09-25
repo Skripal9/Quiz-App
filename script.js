@@ -5,7 +5,7 @@ const quizData = [
         b: '17',
         c: '26',
         b: '110',
-        correct:
+        correct: 'a'
     } , {
         question: 'what is the most used programming language in 2022?',
         a: 'java',
