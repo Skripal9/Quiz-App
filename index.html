@@ -5,29 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-        <div class="quiz-container">
-            <h1>Question Text</h1>
-            <ul>
-                <li>
-                    <input type="redio" id="a" name="answer">
-                    <label for="a">Question</label>
-                </li>
-                <li>
-                    <input type="redio" d="b" name="answer">
-                    <label for=""></label>
-                </li>
-                <li>
-                    <input type="redio" d="c" name="answer">
-                    <label for=""></label>
-                </li>
-                <li>
-                    <input type="redio" d="d" name="answer">
-                    <label for=""></label>
-                </li>
-            </ul>
-            <button>Submit</button>
-        </div>
+        <div class="quiz-container" id = "quiz">
+            <div class="quiz-header">
+                <h2 id="question">Question Text</h2>
+                <ul>
+                    <li>
+                        <input type="radio" id="a" name="answer" class="answer">
+                        <label id="a_text" for="a">Question</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="b" name="answer" class="answer">
+                        <label id = "b_text" for="b">Question</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="c" name="answer" class="answer">
+                        <label id = "c_text" for="c">Question</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="d" name="answer" class="answer">
+                        <label id = "d_text" for="d">Question</label>
+                    </li>
+                </ul>
+                <button id="submit">Submit</button>
+            </div>
+
+         
+        <script src="/script.js"></script>
 </body>
 </html>
